@@ -59,3 +59,9 @@ Finally, the system will print the following:
 • The average waiting time of customers (from the moment the customer appears until speak to the operator and, if the transaction proceeds to payment, from the moment that the telephone operator is done until the time the cashier takes over).
   
 • The average customer service time (from the moment the customer appears, to the completion or failure of the booking).
+
+  
+  
+Code structure: The initial thread of the program will spawn one thread per client (total Ncust threads). Each thread will then perform the above steps until its order is complete and it will print the appropriate output. Finally, the original thread will print the final output. 
+  
+  
