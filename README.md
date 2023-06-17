@@ -39,12 +39,21 @@ The program accepts two parameters from the command line: the number of customer
 
 
 Output: For each customer one of the following messages will be printed on the screen, depending on how the call ended, which will start with the customer number:
+
 • Client <Client_ID>:The reservation was completed succesfully. Your seats are in Zone <selected_zone>, Row <selected_row>, Seat <selected_seats> and the final cost is <cost> euros.
+  
 • The order for client <Client_ID> failed due to shortage in seats.
+  
 • The order for client <Client_ID> failed due to the credit card not being accepted.
+  
 Finally, the system will print the following:
+  
 • The seating plan, e.g. Zone A / Row 1 / Seat 1 / Customer 3, Zone 2 / Row 5 / Seat 2 / Customer 4, etc.
+  
 • Total revenue from sales.
+  
 • The percentage of transactions that are completed with each of the above three ways.
+  
 • The average waiting time of customers (from the moment the customer appears until speak to the operator and, if the transaction proceeds to payment, from the moment that the telephone operator is done until the time the cashier takes over).
+  
 • The average customer service time (from the moment the customer appears, to the completion or failure of the booking).
