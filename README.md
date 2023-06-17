@@ -16,7 +16,7 @@ Input and data: The initial amount in the company account is 0 euros. The follow
 • tseatlow=5 sec, tseathigh=13 sec
 • tcashlow=4 sec, tcashhigh=8 sec
 • Pcardsuccess=90%
-Your program accepts two parameters from the command line: the number of customers to serve, Ncust, and the random seed for the random number generator.
+The program accepts two parameters from the command line: the number of customers to serve, Ncust, and the random seed for the random number generator.
 
 Output: For each customer one of the following messages will be printed on the screen, depending on how the call ended, which will start with the customer number:
 • Client <Client_ID>:The reservation was completed succesfully. Your seats are in Zone <selected_zone>, Row <selected_row>, Seat <selected_seats> and the final cost is <cost> euros.
